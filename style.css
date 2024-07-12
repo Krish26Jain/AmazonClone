@@ -10,6 +10,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -33,6 +34,12 @@
     border: 2px #fff solid;
 }
 
+.nav-address{
+   padding: 0.5%;
+    
+   
+}
+
 .first-address{
     color: #cccccc;
     font-size: 0.85rem;
@@ -52,9 +59,14 @@
 .nav-search{
     display: flex;
     height: 40px;
-    width: 70%;
+    width: 50%;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+
+}
+
+.nav-search:hover{
+    border:2px solid orange;
 }
 
 .search-select{
@@ -82,3 +94,75 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-returns{
+    padding: 0.5%;
+}
+
+.nav-signin{
+    padding: 0.5%;
+}
+
+.nav-cart{
+    padding: 0.7%;
+}
+
+.nav-cart i{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panel-options p{
+    display: inline;
+    
+    padding: 0.7%;
+}
+
+.panel-options{
+    width: 75%;
+    font-size: 0.85rem;
+}
+.panel-options :hover{
+    border:2px white solid;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.panel-all{
+    padding: 0.5%;
+    
+}
+
+.panel-all:hover{
+    border:2px white solid;
+}
+
+.panel-deals{
+    padding: 0.5%;
+}
+.panel-deals:hover{
+    border:2px white solid;
+}
+
